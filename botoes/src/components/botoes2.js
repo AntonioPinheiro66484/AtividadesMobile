@@ -30,12 +30,7 @@ export default comp=>{
 }
 
 const styles = StyleSheet.create({
-    caixa: {
-      flex: 1 ,
-      flexDirection:'column',
-      alignItems: 'center',
-      justifyContent: 'space-around',
-    },
+
 
     div1:{
         flex:1,

@@ -31,13 +31,6 @@ export default comp=>{
 }
 
 const styles = StyleSheet.create({
-    caixa: {
-      flex: 1,
-      flexDirection:'row',
-      alignItems: 'center',
-      justifyContent: 'center',
-      
-    },
 
     div1:{
         flex:1,

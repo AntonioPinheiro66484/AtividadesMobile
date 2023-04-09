@@ -7,7 +7,6 @@ export default comp=>{
     }
     return (
         <>
-        <div className={styles.caixa}>
             <div className={styles.div1}>
                 <Button
                     title="/"
@@ -26,22 +25,16 @@ export default comp=>{
                     onPress={executar()}
                 />
             </div>
-        </div>
     </>
     )
 }
 
 const styles = StyleSheet.create({
-    caixa: {
-      flex:1,
-      alignItems: 'center',
-      justifyContent: 'space-around',
-    },
-
     div1:{
         alignItems:'center',
         justifyContent:'center',
         flexDirection:'row',
+        
     },
 
   });
