@@ -1,8 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-import Botoes1 from './src/components/botao1'
-import Botoes2 from './src/components/botao2'
-import Botoes3 from './src/components/botao3'
+import Botoes1 from './src/components/botoes1'
+import Botoes2 from './src/components/botoes2'
+import Botoes3 from './src/components/botoes3'
 
 export default function App() {
   return (
